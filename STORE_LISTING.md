@@ -136,7 +136,7 @@ Como o content script lê conteúdo de uma página para cumprir a função visí
 
 For Data usage, select only “Website content”. If the dashboard asks for a description, use:
 
-The extension temporarily processes the points, axes, labels, and related chart content rendered on Artificial Analysis pages, entirely locally in memory, to calculate and display the Pareto frontier. The generated model list is copied to the clipboard only after the user clicks Copy list. The extension does not transmit, store, sell, or share this data and does not use it for advertising or analytics.
+The extension temporarily processes the points, axes, labels, and related chart content rendered on Artificial Analysis pages, entirely locally in memory, to calculate and display the Pareto frontier. The generated model list is copied to the clipboard only after the user clicks Copy list. The extension does not transmit or persist this data, sell it, share it, or use it for advertising or analytics.
 
 Leave all other data categories unselected. Certify all three statements shown by Chrome:
 
