@@ -98,6 +98,10 @@ Use a descrição em português e as imagens 01 a 03 para a localidade pt_BR. Pa
 
 Calcular e exibir localmente a fronteira de Pareto dos dados presentes nos gráficos de comparação de modelos do Artificial Analysis.
 
+English text for the dashboard:
+
+Calculate and display locally the Pareto frontier of the model comparison data shown in Artificial Analysis scatter plots.
+
 ### Permission and host-access justifications
 
 Host access to https://artificialanalysis.ai/* and https://www.artificialanalysis.ai/*:
@@ -108,15 +112,41 @@ clipboardWrite:
 
 Necessário para copiar a lista de modelos somente depois que o usuário clicar em Copiar lista. A extensão não lê o clipboard existente nem copia dados automaticamente.
 
+English text for the dashboard:
+
+Required only to copy the generated list of Pareto-frontier model names after the user clicks Copy list. The extension never reads the existing clipboard and never copies data automatically.
+
+Host access English text:
+
+Required to read the points, axis values, and model labels rendered in Artificial Analysis comparison scatter plots and to insert the Pareto button and results popup on those pages. Access is limited to artificialanalysis.ai and www.artificialanalysis.ai.
+
 ### Remote code
 
 No. A extensão não carrega nem executa código remoto.
+
+Select “No, I am not using remote code.” If a justification field is shown, use:
+
+No remote code is used. All JavaScript and libraries are packaged in the extension; it does not load or execute scripts from a server, use eval(), or use new Function(). Artificial Analysis page content is data, not executable code.
 
 ### Data usage disclosure
 
 A extensão processa localmente, em memória, o conteúdo do gráfico já renderizado nas páginas do Artificial Analysis para realizar a função principal solicitada pelo usuário. A lista gerada pode ser escrita no clipboard somente após uma ação explícita do usuário. Nenhum dado é enviado a servidor externo, armazenado em banco de dados, vendido, compartilhado com terceiros ou usado para anúncios e analytics. O conteúdo temporário é descartado quando o popup é fechado ou a página é recarregada.
 
 Como o content script lê conteúdo de uma página para cumprir a função visível da extensão, a declaração do painel deve mencionar esse processamento local de conteúdo do site, caso o formulário apresente essa categoria. As escolhas do painel devem permanecer consistentes com a política de privacidade publicada.
+
+For Data usage, select only “Website content”. If the dashboard asks for a description, use:
+
+The extension temporarily processes the points, axes, labels, and related chart content rendered on Artificial Analysis pages, entirely locally in memory, to calculate and display the Pareto frontier. The generated model list is copied to the clipboard only after the user clicks Copy list. The extension does not transmit, store, sell, or share this data and does not use it for advertising or analytics.
+
+Leave all other data categories unselected. Certify all three statements shown by Chrome:
+
+- I do not sell or transfer user data to third parties, outside of the approved use cases.
+- I do not use or transfer user data for purposes that are unrelated to my item's single purpose.
+- I do not use or transfer user data to determine creditworthiness or for lending purposes.
+
+Privacy policy URL:
+
+https://rnahumaf.github.io/chrome-ext-pareto-aa/privacy-policy.html
 
 ## Test instructions — texto para o revisor
 

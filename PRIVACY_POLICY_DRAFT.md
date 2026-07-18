@@ -26,6 +26,10 @@ When the user explicitly clicks “Copiar lista” or “Copy list”, the exten
 
 The extension does not transfer the processed chart content to third parties. Artificial Analysis operates its own website and has its own privacy policy and terms. This extension is an independent project and is not affiliated with, sponsored by, or endorsed by Artificial Analysis.
 
+## Chrome Web Store Limited Use
+
+The extension uses website content only to provide its single purpose: calculating and displaying the Pareto frontier of model comparison charts on Artificial Analysis. We do not sell or transfer user data to third parties, use or transfer it for purposes unrelated to this single purpose, or use it to determine creditworthiness or for lending purposes.
+
 ## Security
 
 The extension has no backend and does not transmit the processed chart content. Its scripts are packaged with the extension and do not execute remote code.
@@ -38,4 +42,4 @@ If the extension's data practices change, this policy will be updated before the
 
 Support page: https://github.com/rnahumaf/chrome-ext-pareto-aa/issues
 
-The publishable bilingual HTML version is available at docs/privacy-policy.html. Host that page at a stable public HTTPS URL before entering it in the Chrome Web Store Developer Dashboard.
+The publishable bilingual HTML version is available at docs/privacy-policy.html and is hosted at https://rnahumaf.github.io/chrome-ext-pareto-aa/privacy-policy.html.
