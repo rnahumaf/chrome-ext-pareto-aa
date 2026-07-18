@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Pareto Frontier</title>
+  <desc id="desc">Minimal chart with axes, model points, and an ascending Pareto frontier.</desc>
+  <defs>
+    <linearGradient id="background" x1="16" y1="16" x2="112" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#321b58"/>
+      <stop offset="1" stop-color="#6f3ed7"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" fill="url(#background)"/>
+  <path d="M27 101V27M27 101H103" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M40 82L54 67L70 70L91 42" fill="none" stroke="#e9ddff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="40" cy="82" r="6" fill="#fff"/>
+  <circle cx="54" cy="67" r="6" fill="#fff"/>
+  <circle cx="70" cy="70" r="6" fill="#ffd166"/>
+  <circle cx="91" cy="42" r="6" fill="#fff"/>
+  <circle cx="78" cy="87" r="5" fill="#b99aff" opacity=".8"/>
+  <circle cx="98" cy="67" r="5" fill="#b99aff" opacity=".8"/>
+</svg>

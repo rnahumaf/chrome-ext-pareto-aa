@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="280" viewBox="0 0 440 280" role="img" aria-labelledby="title desc">
+  <title id="title">Pareto Frontier promotional tile</title>
+  <desc id="desc">High-contrast scatter plot with a highlighted Pareto frontier.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="440" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#24133f"/>
+      <stop offset=".58" stop-color="#4a238a"/>
+      <stop offset="1" stop-color="#7f4bf3"/>
+    </linearGradient>
+    <linearGradient id="frontier" x1="92" y1="202" x2="360" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#ffd166"/>
+    </linearGradient>
+  </defs>
+  <rect width="440" height="280" fill="url(#background)"/>
+  <g opacity=".18" stroke="#fff" stroke-width="1">
+    <path d="M70 52H400M70 94H400M70 136H400M70 178H400M70 220H400"/>
+    <path d="M112 36V230M154 36V230M196 36V230M238 36V230M280 36V230M322 36V230M364 36V230"/>
+  </g>
+  <path d="M70 230V36M70 230H400" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  <path d="M95 202L142 165L188 174L238 133L286 142L332 92L370 58" fill="none" stroke="url(#frontier)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#fff">
+    <circle cx="95" cy="202" r="9"/>
+    <circle cx="142" cy="165" r="9"/>
+    <circle cx="188" cy="174" r="9"/>
+    <circle cx="238" cy="133" r="9"/>
+    <circle cx="286" cy="142" r="9"/>
+    <circle cx="332" cy="92" r="9"/>
+    <circle cx="370" cy="58" r="9"/>
+  </g>
+  <g fill="#b99aff" opacity=".8">
+    <circle cx="125" cy="218" r="7"/>
+    <circle cx="176" cy="204" r="7"/>
+    <circle cx="218" cy="191" r="7"/>
+    <circle cx="265" cy="184" r="7"/>
+    <circle cx="315" cy="158" r="7"/>
+    <circle cx="382" cy="126" r="7"/>
+  </g>
+</svg>

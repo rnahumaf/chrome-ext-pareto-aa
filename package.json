@@ -1,0 +1,9 @@
+{
+  "name": "pareto-frontier-artificial-analysis",
+  "private": true,
+  "version": "0.1.1",
+  "description": "Chrome extension for extracting Pareto frontiers from Artificial Analysis scatter plots.",
+  "scripts": {
+    "test": "node --test"
+  }
+}

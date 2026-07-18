@@ -1,0 +1,11 @@
+{
+  "extensionName": {
+    "message": "Pareto Frontier for Artificial Analysis"
+  },
+  "extensionDescription": {
+    "message": "Find and copy Pareto frontiers from model comparison scatter plots on Artificial Analysis."
+  },
+  "actionTitle": {
+    "message": "Calculate Pareto frontier"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "extensionName": {
+    "message": "Fronteira de Pareto para o Artificial Analysis"
+  },
+  "extensionDescription": {
+    "message": "Veja e copie a fronteira de Pareto dos gráficos de comparação de modelos no Artificial Analysis."
+  },
+  "actionTitle": {
+    "message": "Calcular fronteira de Pareto"
+  }
+}
