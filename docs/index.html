@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Pareto Frontier for Artificial Analysis — compare model trade-offs directly on Artificial Analysis charts.">
+    <title>Pareto Frontier for Artificial Analysis</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: #21152e;
+        background: #f7f4fb;
+      }
+      * { box-sizing: border-box; }
+      body { margin: 0; }
+      .hero {
+        padding: 72px 22px 64px;
+        color: #fff;
+        background: linear-gradient(120deg, #211132, #4a238a 58%, #7f4bf3);
+      }
+      .hero-inner, main { max-width: 980px; margin: 0 auto; }
+      .brand { display: flex; align-items: center; gap: 18px; }
+      .brand img { width: 72px; height: 72px; border-radius: 18px; }
+      h1 { margin: 0; font: 700 38px Georgia, "Times New Roman", serif; }
+      .tagline { max-width: 680px; margin: 28px 0 0; color: #eee6ff; font-size: 20px; line-height: 1.55; }
+      main { padding: 34px 22px 64px; }
+      .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+      section { padding: 24px; border: 1px solid #e6def2; border-radius: 16px; background: #fff; box-shadow: 0 12px 30px rgba(36, 21, 66, .06); }
+      h2 { margin: 0 0 12px; color: #321b58; font-size: 22px; }
+      p, li { line-height: 1.6; }
+      li + li { margin-top: 8px; }
+      a { color: #6030b5; }
+      .links { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 26px; }
+      .button { display: inline-block; padding: 11px 16px; border-radius: 10px; color: #fff; background: #6030b5; text-decoration: none; font-weight: 650; }
+      .button.secondary { color: #6030b5; background: #eee7fc; }
+      footer { max-width: 980px; margin: 0 auto; padding: 0 22px 34px; color: #6b6374; font-size: 14px; }
+      @media (max-width: 680px) {
+        .hero { padding-top: 48px; }
+        h1 { font-size: 31px; }
+        .grid { grid-template-columns: 1fr; }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-inner">
+        <div class="brand">
+          <img src="../assets/pareto-icon-128.png" alt="Pareto Frontier icon">
+          <h1>Pareto Frontier for Artificial Analysis</h1>
+        </div>
+        <p class="tagline">Find the models that offer the best trade-offs in Artificial Analysis comparison charts — directly in your browser.</p>
+        <div class="links">
+          <a class="button" href="https://github.com/rnahumaf/chrome-ext-pareto-aa">View source on GitHub</a>
+          <a class="button secondary" href="privacy-policy.html">Privacy policy</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="grid">
+        <section>
+          <h2>How it works</h2>
+          <ol>
+            <li>Open a model comparison scatter plot on Artificial Analysis.</li>
+            <li>Click the Pareto button beside the chart controls.</li>
+            <li>Choose the preferred direction and inspect the frontier models.</li>
+            <li>Copy the generated model list when needed.</li>
+          </ol>
+        </section>
+
+        <section>
+          <h2>Features</h2>
+          <ul>
+            <li>Works on Artificial Analysis comparison charts.</li>
+            <li>Supports four objective directions.</li>
+            <li>Processes chart data locally in the browser.</li>
+            <li>No account, analytics, advertising, or tracking.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Como funciona</h2>
+          <ol>
+            <li>Abra um gráfico de comparação de modelos no Artificial Analysis.</li>
+            <li>Clique no botão Pareto junto aos controles do gráfico.</li>
+            <li>Escolha a direção e consulte os modelos da fronteira.</li>
+            <li>Copie a lista gerada quando necessário.</li>
+          </ol>
+        </section>
+
+        <section>
+          <h2>Privacidade e suporte</h2>
+          <p>A extensão calcula a fronteira localmente e não envia o conteúdo dos gráficos para um servidor do desenvolvedor.</p>
+          <p><a href="privacy-policy.html">Leia a política de privacidade</a> ou <a href="https://github.com/rnahumaf/chrome-ext-pareto-aa/issues">abra uma solicitação de suporte</a>.</p>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      Pareto Frontier for Artificial Analysis is an independent project and is not affiliated with, sponsored by, or endorsed by Artificial Analysis.
+    </footer>
+  </body>
+</html>

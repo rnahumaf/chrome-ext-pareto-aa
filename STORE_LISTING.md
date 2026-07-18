@@ -167,6 +167,12 @@ URL pública:
 
 https://rnahumaf.github.io/chrome-ext-pareto-aa/privacy-policy.html
 
+## URLs do Developer Dashboard
+
+- Homepage URL: `https://rnahumaf.github.io/chrome-ext-pareto-aa/`
+- Support URL: `https://github.com/rnahumaf/chrome-ext-pareto-aa/issues`
+- Official URL: deixe em branco, a menos que um domínio seu esteja verificado no Google Search Console e possa ser associado publicamente a esta extensão.
+
 ## Checklist antes do upload
 
 - [x] Criar o ícone vetorial em assets/pareto-icon.svg e o PNG de 128×128 em assets/pareto-icon-128.png; ambos já estão referenciados no manifest.json.
