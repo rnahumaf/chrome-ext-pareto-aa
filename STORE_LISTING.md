@@ -157,7 +157,7 @@ A página bilingue pronta para GitHub Pages está em:
 
 Depois de publicar este repositório no GitHub e ativar Pages usando a pasta docs, a URL esperada será:
 
-https://SEU_USUARIO.github.io/chrome-ext-pareto-aa/privacy-policy.html
+https://rnahumaf.github.io/chrome-ext-pareto-aa/privacy-policy.html
 
 Depois de publicar o repositório, cole a URL real no campo Privacy policy do Developer Dashboard.
 
