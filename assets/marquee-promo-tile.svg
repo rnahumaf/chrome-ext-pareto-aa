@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="560" viewBox="0 0 1400 560" role="img" aria-labelledby="title desc">
+  <title id="title">Pareto Frontier for Artificial Analysis</title>
+  <desc id="desc">Large promotional graphic with a model comparison chart and highlighted Pareto frontier.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1400" y2="560" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#211132"/>
+      <stop offset=".58" stop-color="#4a238a"/>
+      <stop offset="1" stop-color="#7f4bf3"/>
+    </linearGradient>
+    <linearGradient id="frontier" x1="220" y1="420" x2="1010" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#ffd166"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#160b29" flood-opacity=".28"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="560" fill="url(#background)"/>
+  <g opacity=".14" stroke="#fff" stroke-width="2">
+    <path d="M130 90H1060M130 170H1060M130 250H1060M130 330H1060M130 410H1060M130 490H1060"/>
+    <path d="M210 50V490M290 50V490M370 50V490M450 50V490M530 50V490M610 50V490M690 50V490M770 50V490M850 50V490M930 50V490M1010 50V490"/>
+  </g>
+  <path d="M130 490V60M130 490H1060" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+  <path d="M220 420L310 350L410 365L520 285L620 305L745 218L850 240L965 155L1030 112" fill="none" stroke="url(#frontier)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" filter="url(#shadow)"/>
+  <g fill="#fff" filter="url(#shadow)">
+    <circle cx="220" cy="420" r="15"/>
+    <circle cx="310" cy="350" r="15"/>
+    <circle cx="410" cy="365" r="15"/>
+    <circle cx="520" cy="285" r="15"/>
+    <circle cx="620" cy="305" r="15"/>
+    <circle cx="745" cy="218" r="15"/>
+    <circle cx="850" cy="240" r="15"/>
+    <circle cx="965" cy="155" r="15"/>
+    <circle cx="1030" cy="112" r="15"/>
+  </g>
+  <g fill="#b99aff" opacity=".82">
+    <circle cx="270" cy="455" r="11"/>
+    <circle cx="355" cy="425" r="11"/>
+    <circle cx="470" cy="397" r="11"/>
+    <circle cx="575" cy="370" r="11"/>
+    <circle cx="680" cy="350" r="11"/>
+    <circle cx="795" cy="300" r="11"/>
+    <circle cx="920" cy="280" r="11"/>
+    <circle cx="1050" cy="220" r="11"/>
+  </g>
+  <g transform="translate(1140 130)">
+    <rect width="190" height="190" rx="40" fill="#201033" fill-opacity=".55" stroke="#d8c8ff" stroke-opacity=".22" stroke-width="2"/>
+    <path d="M44 143V43M44 143H148" fill="none" stroke="#fff" stroke-width="11" stroke-linecap="round"/>
+    <path d="M61 122L82 96L104 101L137 63" fill="none" stroke="#e9ddff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="61" cy="122" r="9" fill="#fff"/>
+    <circle cx="82" cy="96" r="9" fill="#fff"/>
+    <circle cx="104" cy="101" r="9" fill="#ffd166"/>
+    <circle cx="137" cy="63" r="9" fill="#fff"/>
+  </g>
+  <text x="1110" y="386" fill="#fff" font-family="Georgia, Times New Roman, serif" font-size="31" font-weight="700">Pareto Frontier</text>
+  <text x="1110" y="430" fill="#e9ddff" font-family="system-ui, sans-serif" font-size="20">for Artificial Analysis</text>
+</svg>

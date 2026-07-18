@@ -139,9 +139,9 @@ Use as imagens na ordem abaixo. Todas estão em 1280×800, sem bordas ou padding
 
 A loja aceita até cinco screenshots; estas quatro cobrem o fluxo principal e a localização inglesa.
 
-## Small promotional tile
+## Promotional tiles
 
-O tile de promoção de 440×280 já está pronto, sem texto pequeno e com contraste alto:
+O Small promotional tile obrigatório, em 440×280, já está pronto, sem texto pequeno e com contraste alto:
 
 [small-promo-tile.png](assets/small-promo-tile.png)
 
@@ -149,31 +149,38 @@ Fonte vetorial editável:
 
 [small-promo-tile.svg](assets/small-promo-tile.svg)
 
+O Marquee promotional tile opcional, em 1400×560, também está pronto para uso em áreas de destaque da loja:
+
+[marquee-promo-tile.png](assets/marquee-promo-tile.png)
+
+Fonte vetorial editável:
+
+[marquee-promo-tile.svg](assets/marquee-promo-tile.svg)
+
 ## Política de privacidade hospedável
 
 A página bilingue pronta para GitHub Pages está em:
 
 [docs/privacy-policy.html](docs/privacy-policy.html)
 
-Depois de publicar este repositório no GitHub e ativar Pages usando a pasta docs, a URL esperada será:
+URL pública:
 
 https://rnahumaf.github.io/chrome-ext-pareto-aa/privacy-policy.html
-
-Depois de publicar o repositório, cole a URL real no campo Privacy policy do Developer Dashboard.
 
 ## Checklist antes do upload
 
 - [x] Criar o ícone vetorial em assets/pareto-icon.svg e o PNG de 128×128 em assets/pareto-icon-128.png; ambos já estão referenciados no manifest.json.
 - [x] Criar o small promotional tile PNG de 440×280 em assets/small-promo-tile.png.
+- [x] Criar o marquee promotional tile PNG opcional de 1400×560 em assets/marquee-promo-tile.png.
 - [x] Preparar a política bilingue em docs/privacy-policy.html.
 - [x] Definir a página de Issues do repositório como canal público de suporte.
-- [ ] Publicar docs/privacy-policy.html em uma URL HTTPS pública.
+- [x] Publicar docs/privacy-policy.html em uma URL HTTPS pública.
 - [ ] Colar a URL pública da política no campo Privacy policy do Developer Dashboard.
 - [ ] Informar um e-mail de suporte verificável no perfil do publicador.
 - [ ] Confirmar a verificação em duas etapas da conta de desenvolvedor.
-- [ ] Compactar manifest.json, pareto-core.js, content-script.js, a pasta _locales e assets/pareto-icon-128.png, mantendo o manifest.json na raiz do ZIP.
-- [ ] Não incluir output, .playwright-cli, testes, package.json, README ou o arquivo Python no ZIP de produção.
-- [ ] Fazer um último teste com o ZIP e incrementar a versão do manifest.json em cada atualização futura.
+- [x] Compactar manifest.json, pareto-core.js, content-script.js, a pasta _locales e assets/pareto-icon-128.png, mantendo o manifest.json na raiz do ZIP.
+- [x] Não incluir output, .playwright-cli, testes, package.json, README ou o arquivo Python no ZIP de produção.
+- [x] Fazer um último teste com o ZIP; incrementar a versão do manifest.json em cada atualização futura.
 
 ## Versão inicial
 
